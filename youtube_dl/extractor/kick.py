@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 from .common import InfoExtractor
 from ..utils import float_or_none, str_or_none, traverse_obj, unified_timestamp, url_or_none
 
+
 class KickVideoIE(InfoExtractor):
     _VALID_URL = r'https?://(?:www\.)?kick\.com/video/(?P<id>[\w\W]+)'
     _TEST = {
